@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	
+	padding-right:20px;
+	padding-left:20px;
+
+
+}
+
+header{
+
+    height: 150px;
+    border-style: solid;
+    border-color: steelblue;
+    background-color: steelblue;
+}
+
+h1,h5{
+
+    text-align:center;
+	color:aliceblue;
+
+}
+
+h1{
+    line-height : 70%; 
+}
+
+h5{
+    line-height : 40%;
+}
+
+.box1,.box2,.box3,.box4 {
+
+    background-color:papayawhip;
+    padding: 15px;
+    margin: 10px;
+    border:  solid papayawhip;
+    height: 230px;
+    width: 690px;
+
+ }
+
+.title{
+
+    text-align:center;
+	color:black;
+    font-size-adjust: 0.6;
+
+}
+
+.mu{
+
+    position:absolute;
+    left:325px;
+
+}
+
+.mu4{
+
+    position:absolute;
+    left:320px;
+    top:80px;
+
+}
+
+.box2 {
+    position:absolute; left:19px;top:450px;
+}
+.box3 { 
+    position:absolute; top:163.4px; right:19px;
+}
+.box4 { 
+    position:absolute; top:450px; right:19px;
+}
+.box1 {
+    position:absolute; left:19px;
+}
+.text{
+
+    text-align:center;
+    margin: 20px auto;
+
+}
+
+.button1,.button2,.button3,.button4{
+
+    border-radius: 3px;
+    position:absolute;
+    text-align:center;
+    font-size:16px;
+    cursor:pointer;
+
+}
+
+.button1,.button2{
+    background-color:rgb(84, 164, 217);
+    color: #FFF;
+    left: 323px;
+    border-color:rgb(84, 164, 217) ;
+}
+.button3,.button4{
+    background-color:rgb(87, 211, 74);
+    color: #FFF;
+    left: 341px;
+    border-color:rgb(87, 211, 74) ;
+}
+
+
+
+

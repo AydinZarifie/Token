@@ -1,0 +1,95 @@
+<!doctype html>
+<html dir="ltr">
+<meta charset="utf-8">
+<title>test</title>
+<link rel="stylesheet" href="css/test.css">
+	
+
+<head>
+
+<header class="header">
+<h1 class="h1">Coin Dapp</h1>
+<h5 class="h5" id = "minter-address">Minter:</h5>
+<h5 class="h5" id = "current-address">Current User Account : </h5>
+<h5 class="h5" id = "totalSupply">Total Supply: </h5>
+</header>
+
+</head>
+	
+<body>
+
+<div class="box1">
+        <h1 class="title">Check Balance</h1>
+
+            <select class="mu" name="Balance" id="option-balance" >
+            <optgroup label="Please Select an Account"  >
+            </optgroup>
+        </select><br>
+
+    <div class="text">
+        <label>
+            <span >Balance:</span>
+            <input type="text" name="name"  id="balanceToken" disabled>
+        </label>
+    </div>
+    <div>
+        <a ><button type="button" class="button1"  id="Balance">Balance</a>
+    </div>
+</div>
+
+<div class="box2">
+        <h1 class="title">Transfer Token</h1>
+        <select class="mu" name="Mint"  id="option-transfer">
+            <optgroup label="Please Select an Account"  >
+            </optgroup>
+        </select><br>
+    <div class="text">
+            <label>
+                <span >Amount:</span>
+                <input type="text" name="name" id="amountTransfer">
+            </label>
+    </div>
+    <div>
+        <a ><button type="button" class="button2" id="transfer">Transfer</a>
+    </div>
+</div>
+
+<div class="box3">
+        <h1 class="title">Mint Token</h1>
+        <select class="mu" name="Transfer" id="option-mint">
+            <optgroup label="Please Select an Account" >
+            </optgroup>
+            </select><br>
+    <div class="text">
+                <label>
+                    <span >Amount:</span>
+                    <input type="text" name="name" id="amountMint">
+                </label>
+    </div>
+    <div>
+        <a ><button type="button" id="mint" class="button3">Mint</a>
+    </div>
+</div>
+
+    <div class="box4">
+        <h1 class="title">Buy Token</h1>
+            <div class="mu4" id="token-price">Token Price:</div><br>
+                <div class="text">
+            <label>
+                <span >Amount:</span>
+				<input type="text" name="name" id="amountBuy">
+            </label>
+    </div>
+    <div>
+    <a ><button type="button" id="buy" class="button4">Buy</a>
+    </div>
+</div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/web3.min.js"></script>
+    <script src="js/truffle-contract.js"></script>
+    <script src="https://unpkg.com/@metamask/detect-provider/dist/detect-provider.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
